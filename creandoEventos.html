@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="botonClick.js"></script>
+    <title>Eventos &#10087;</title>
+
+    <script src="./botonClick.js"></script>
+    <script src="./focus.js"></script>
+    <script src="./input.js"></script>
+
 </head>
 
 <body>
+
+
+    <input id="focus" class="focus" type="text1" onfocus="enfoque()" placeholder="Focus me!" />
+
+    <input id="value" class="value" type="text" onfocus="miraDentro()" placeholder="Whrite + click " />
+
     <input class="click" type="text" />
-    <input class="focus" type="text" />
-    <input class="value" type="text" />
-
-
     <button onclick="toque()">Click me</button>
 
-    <!--   <script>
-        function toque() {
 
-            console.log("ME HAS CLICKCADO");
-        }
-    </script> -->
 </body>
 
 </html>
