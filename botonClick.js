@@ -4,4 +4,5 @@ evento click que ejecute un console log con la información del evento del click
 function toque() {
 
     console.log("ME HAS CLICKCADO");
+
 }
